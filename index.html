@@ -6,7 +6,6 @@
   <meta name="description" content="Anoushka Antony — Behavioural researcher working at the intersection of identity, risk, and mental health. Final-year Psychology undergraduate at Ashoka University." />
   <title>Anoushka Antony</title>
   <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- Phosphor Icons -->
   <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
 </head>
 <body>
@@ -21,7 +20,11 @@
         <li><a href="teaching.html">Teaching</a></li>
         <li><a href="experience.html">Experience</a></li>
         <li><a href="art.html">Art</a></li>
-        <li><a href="about.html">About</a></li>
+        <li>
+          <a href="assets/docs/CV_Anoushka_Antony.pdf" target="_blank" rel="noopener" class="nav-cv-btn">
+            CV ↓
+          </a>
+        </li>
       </ul>
       <button class="nav__hamburger" aria-label="Open menu">
         <span></span><span></span><span></span>
@@ -29,7 +32,7 @@
     </div>
   </nav>
 
-  <!-- Mobile menu overlay -->
+  <!-- Mobile menu -->
   <div class="nav__mobile" role="dialog" aria-label="Mobile navigation">
     <button class="nav__mobile-close" aria-label="Close menu">✕</button>
     <a href="index.html">Home</a>
@@ -37,28 +40,115 @@
     <a href="teaching.html">Teaching</a>
     <a href="experience.html">Experience</a>
     <a href="art.html">Art</a>
-    <a href="about.html">About</a>
+    <a href="assets/docs/CV_Anoushka_Antony.pdf" target="_blank" rel="noopener">CV ↓</a>
   </div>
 
-  <!-- ===== HERO ===== -->
   <main>
-    <section class="hero section" style="padding-top: calc(64px + 80px);">
-      <div class="container">
-        <div class="hero__inner">
 
-          <div class="hero__content">
-            <span class="section-label animate animate-delay-1">Psychology · Cognitive Science · Ashoka University</span>
+    <!-- ===== HERO ===== -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+
+          <!-- Left: Text -->
+          <div class="hero-text">
+            <span class="section-label animate animate-delay-1">
+              Psychology · Cognitive Science · Ashoka University
+            </span>
             <h1 class="animate animate-delay-2">Anoushka<br>Antony</h1>
             <div class="divider animate animate-delay-3"></div>
-            <p class="hero__tagline animate animate-delay-3">
-              Behavioural researcher working at the intersection of<br>
+            <p class="hero-tagline animate animate-delay-3">
+              Behavioural researcher working at the intersection of
               <em>identity, risk, and mental health.</em>
             </p>
-            <div class="hero__ctas animate animate-delay-4">
+            <div class="hero-ctas animate animate-delay-4">
               <a href="research.html" class="btn btn--filled">View Research</a>
-              <a href="assets/docs/CV_Anoushka_Antony.pdf" class="btn btn--outlined" target="_blank" rel="noopener">
+              <a href="assets/docs/CV_Anoushka_Antony.pdf"
+                 class="btn btn--outlined"
+                 target="_blank" rel="noopener">
                 Download CV
               </a>
+            </div>
+          </div>
+
+          <!-- Right: Photo -->
+          <div class="hero-photo-wrap animate animate-delay-3">
+            <img
+              src="assets/images/anoushka.jpg"
+              alt="Anoushka Antony"
+              class="hero-photo"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT / BIO ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Bio -->
+          <div class="scroll-animate">
+            <span class="section-label">About</span>
+            <h2 style="margin-bottom: var(--space-md);">Who I Am</h2>
+            <p style="margin-bottom: var(--space-md); font-size: 1.05rem;">
+              I'm a final-year Psychology student at Ashoka University, working at the intersection
+              of identity, decision-making, and mental health. My research asks how people relate to
+              their future selves, how gender shapes social cognition, and how care and risk intersect
+              in young people's lives — questions I pursue with a mix of experimental design,
+              qualitative fieldwork, and a lot of curiosity.
+            </p>
+            <p style="font-size: 1.05rem;">
+              I've had the privilege of doing research I actually believe in — from fieldwork with
+              orphaned and separated children in Delhi, to running studies on risk-taking and future
+              identity at Ashoka. Outside the lab, I teach, I make art, and I think good thinking
+              and good creativity are the same muscle.
+            </p>
+          </div>
+
+          <!-- Education + Contact -->
+          <div class="scroll-animate">
+            <span class="section-label">Education</span>
+            <div class="edu-card">
+              <div class="edu-card__header">
+                <h3>BSc (Honours) Psychology</h3>
+                <span class="edu-card__year">2022 – 2026</span>
+              </div>
+              <p class="edu-card__inst">Ashoka University, Sonipat, Haryana</p>
+              <div class="edu-card__stats">
+                <div class="edu-stat">
+                  <span class="edu-stat__label">CGPA</span>
+                  <span class="edu-stat__value">3.67</span>
+                </div>
+                <div class="edu-stat">
+                  <span class="edu-stat__label">Major GPA</span>
+                  <span class="edu-stat__value">3.85</span>
+                </div>
+              </div>
+              <div class="tags" style="margin-top: var(--space-md);">
+                <span class="tag">Identity & Self</span>
+                <span class="tag">Gender</span>
+                <span class="tag">Mental Health</span>
+                <span class="tag">Decision-Making</span>
+                <span class="tag">Mixed Methods</span>
+              </div>
+            </div>
+
+            <div style="margin-top: var(--space-lg);">
+              <span class="section-label">Contact</span>
+              <div style="margin-top: var(--space-sm); display: flex; flex-direction: column; gap: 10px;">
+                <a href="mailto:anoushka.antony_ug25@ashoka.edu.in" class="contact-link">
+                  <span class="contact-link__icon">✉</span>
+                  anoushka.antony_ug25@ashoka.edu.in
+                </a>
+                <a href="https://github.com/AnoushkaAntony"
+                   target="_blank" rel="noopener" class="contact-link">
+                  <span class="contact-link__icon">↗</span>
+                  github.com/AnoushkaAntony
+                </a>
+              </div>
             </div>
           </div>
 
@@ -66,13 +156,35 @@
       </div>
     </section>
 
-    <!-- ===== PERSONAL STATEMENT ===== -->
-    <section class="section" style="padding-top: 0;">
+    <!-- ===== CURRENT RESEARCH HIGHLIGHT ===== -->
+    <section class="section">
       <div class="container">
-        <div style="max-width: 680px;">
-          <p class="scroll-animate" style="font-size: 1.1rem; color: var(--text-primary); line-height: 1.9; font-family: var(--font-display); font-style: italic; font-weight: 400;">
-            "I'm a final-year Psychology student at Ashoka University. I work at the intersection of identity, risk, and mental health — using both qualitative and quantitative methods to ask questions that matter. I bring rigour and curiosity in equal measure, and I believe the best research comes from staying genuinely close to the people and questions you care about."
+        <span class="section-label scroll-animate">Current Research</span>
+        <div class="research-card scroll-animate" style="max-width: 780px;">
+          <div class="research-card__meta">
+            <span>Ashoka University</span>
+            <span>Aug 2025 – Present</span>
+            <span>Undergraduate Thesis</span>
+          </div>
+          <h3>Future Self-Continuity and Risk-Taking among Indian Young Adults</h3>
+          <p style="margin-top: var(--space-sm);">
+            How does the strength of our connection to our future selves shape the risks we take
+            today? This two-study thesis (N≈600) uses a letter-writing intervention and the Columbia
+            Card Task to examine the causal role of future self-continuity on hot and cold
+            decision-making — supervised by Prof. Naseer Ahmad Bhat.
           </p>
+          <div class="tags" style="margin-top: var(--space-md);">
+            <span class="tag">Mixed Methods</span>
+            <span class="tag">Experimental</span>
+            <span class="tag">Correlational</span>
+            <span class="tag">N=600</span>
+            <span class="tag">Decision-Making</span>
+          </div>
+          <a href="research.html"
+             style="display: inline-block; margin-top: var(--space-md);
+                    font-size: 0.875rem; font-weight: 500; color: var(--accent);">
+            See all research →
+          </a>
         </div>
       </div>
     </section>
@@ -86,49 +198,24 @@
           <a href="research.html" class="quick-card scroll-animate">
             <span class="quick-card__label">Research</span>
             <h3>Identity, Risk & Mental Health</h3>
-            <p>Exploring how people relate to their future selves, how gender shapes social cognition, and how care and risk intersect in young people's lives.</p>
+            <p>Exploring how people relate to their future selves, how gender shapes social
+               cognition, and how care and risk intersect in young people's lives.</p>
           </a>
 
           <a href="teaching.html" class="quick-card scroll-animate">
             <span class="quick-card__label">Teaching</span>
             <h3>Building Understanding</h3>
-            <p>As a teaching assistant at Ashoka, I design discussion sessions, mentor students, and make complex psychological concepts genuinely accessible.</p>
+            <p>Designing discussion sessions, mentoring students, and making complex
+               psychological concepts genuinely accessible.</p>
           </a>
 
           <a href="art.html" class="quick-card scroll-animate">
             <span class="quick-card__label">Art</span>
             <h3>Where Rigour Ends & Expression Begins</h3>
-            <p>Mixed media — oil, watercolour, digital illustration. A separate world, but the same curiosity that drives the research.</p>
+            <p>Mixed media — oil, watercolour, digital illustration. A separate world,
+               but the same curiosity that drives the research.</p>
           </a>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== CURRENT WORK HIGHLIGHT ===== -->
-    <section class="section">
-      <div class="container">
-        <span class="section-label scroll-animate">Current Research</span>
-        <div class="research-card scroll-animate" style="max-width: 780px;">
-          <div class="research-card__meta">
-            <span>Ashoka University</span>
-            <span>Aug 2025 – Present</span>
-            <span>Undergraduate Thesis</span>
-          </div>
-          <h3>Future Self-Continuity and Risk-Taking among Indian Young Adults</h3>
-          <p>
-            How does the strength of our connection to our future selves shape the risks we take today? This two-study thesis (N≈600) uses a letter-writing intervention and the Columbia Card Task to examine the causal role of future self-continuity on hot and cold decision-making — supervised by Prof. Naseer Ahmad Bhat.
-          </p>
-          <div class="tags" style="margin-top: var(--space-md);">
-            <span class="tag">Mixed Methods</span>
-            <span class="tag">Experimental</span>
-            <span class="tag">Correlational</span>
-            <span class="tag">N=600</span>
-            <span class="tag">Decision-Making</span>
-          </div>
-          <a href="research.html" style="display: inline-block; margin-top: var(--space-md); font-size: 0.875rem; font-weight: 500; color: var(--accent);">
-            See all research →
-          </a>
         </div>
       </div>
     </section>
@@ -147,50 +234,204 @@
     </div>
   </footer>
 
-  <!-- Scroll to top -->
   <button class="scroll-top" aria-label="Scroll to top">↑</button>
-
   <script src="assets/js/main.js"></script>
 
   <style>
-    /* Home page specific styles */
-    .hero__inner {
-      display: flex;
-      align-items: flex-start;
+    .nav-cv-btn {
+      color: var(--accent) !important;
+      border: 1px solid var(--accent);
+      padding: 5px 14px !important;
+      border-radius: 100px;
+      font-size: 0.8rem !important;
+      transition: all 0.25s ease;
+    }
+    .nav-cv-btn:hover {
+      background: var(--accent);
+      color: white !important;
+    }
+    .nav-cv-btn::after { display: none !important; }
+
+    /* Hero */
+    .hero-section {
+      padding-top: calc(64px + 80px);
+      padding-bottom: var(--space-xxl);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 360px;
       gap: var(--space-xl);
+      align-items: center;
     }
 
-    .hero__content {
-      max-width: 620px;
-    }
-
-    .hero__tagline {
-      font-size: 1.15rem;
+    .hero-tagline {
+      font-size: 1.1rem;
       color: var(--text-secondary);
       max-width: 48ch;
       line-height: 1.8;
       margin-bottom: var(--space-lg);
     }
 
-    .hero__tagline em {
+    .hero-tagline em {
       color: var(--accent);
       font-style: italic;
     }
 
-    .hero__ctas {
+    .hero-ctas {
       display: flex;
       gap: var(--space-sm);
       flex-wrap: wrap;
     }
 
-    @media (max-width: 768px) {
-      .hero__inner {
-        flex-direction: column;
-      }
+    .hero-photo-wrap {
+      position: relative;
+    }
 
-      .hero__tagline br {
-        display: none;
+    .hero-photo {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      object-fit: cover;
+      object-position: top center;
+      border-radius: var(--radius-lg);
+      filter: saturate(0.88);
+    }
+
+    .hero-photo-wrap::before {
+      content: '';
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      width: 100px;
+      height: 100px;
+      border-top: 2px solid var(--accent);
+      border-right: 2px solid var(--accent);
+      border-radius: 0 var(--radius-lg) 0 0;
+      opacity: 0.35;
+      pointer-events: none;
+    }
+
+    .hero-photo-wrap::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: -10px;
+      width: 70px;
+      height: 70px;
+      border-bottom: 2px solid var(--accent);
+      border-left: 2px solid var(--accent);
+      border-radius: 0 0 0 var(--radius-lg);
+      opacity: 0.35;
+      pointer-events: none;
+    }
+
+    /* About grid */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: var(--space-xl);
+      align-items: start;
+    }
+
+    /* Education card */
+    .edu-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      margin-top: var(--space-sm);
+    }
+
+    .edu-card__header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: var(--space-sm);
+      margin-bottom: 4px;
+    }
+
+    .edu-card__header h3 { font-size: 1.05rem; }
+
+    .edu-card__year {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-weight: 500;
+      white-space: nowrap;
+      padding-top: 4px;
+    }
+
+    .edu-card__inst {
+      font-size: 0.875rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: var(--space-md);
+      max-width: none;
+    }
+
+    .edu-card__stats {
+      display: flex;
+      gap: var(--space-lg);
+    }
+
+    .edu-stat {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .edu-stat__label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .edu-stat__value {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1;
+    }
+
+    /* Contact links */
+    .contact-link {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: color 0.25s ease;
+    }
+
+    .contact-link:hover { color: var(--accent); }
+
+    .contact-link__icon {
+      color: var(--accent);
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 960px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-lg);
       }
+      .hero-photo-wrap {
+        max-width: 300px;
+      }
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-section {
+        padding-top: calc(64px + 48px);
+        padding-bottom: var(--space-xl);
+      }
+      .hero-tagline br { display: none; }
     }
   </style>
 
